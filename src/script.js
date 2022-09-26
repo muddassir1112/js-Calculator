@@ -7,19 +7,19 @@ function input(){ // This function helps to calculate the resultant value
     var result = [];
     if(document.getElementById('input').value.includes("-")){
         result = document.getElementById('input').value.split('-'); // Split function breaks an array into two parts as per the given instructions
-        return parseInt(result[0] - result[1]);
+        return parseInt(result[0]) - parseInt(result[1]);
     }
     else if(document.getElementById('input').value.includes("+")){
         result = document.getElementById('input').value.split('+');
-        return parseInt(result[0] + result[1]);
+        return parseInt(result[0]) + parseInt(result[1]);
     }
     else if(document.getElementById('input').value.includes("/")){
         result = document.getElementById('input').value.split('/');
-        return parseInt(result[0] / result[1]);
+        return parseInt(result[0]) / parseInt(result[1]);
     }
     else if(document.getElementById('input').value.includes("*")){
         result = document.getElementById('input').value.split('*');
-        return parseInt(result[0] * result[1]);
+        return parseInt(result[0]) * parseInt(result[1]);
     }
 }
 function output(){ // The resultant value will get stored in the variable and will dispaly in the input box
