@@ -1,25 +1,39 @@
-div{
-    
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+#calculatorBody {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  width: 360px;
+  background: #9bddff;
+  margin:5% 0% 0% 35%;
+  padding: 5px;
 }
-table{
-    border-radius: 13px;
-    background-color: black;
-    width:fit-content;
-    margin-top: 5%;
-    padding: 0.5% 0.5% 0.5% 0.5%;
 
+#answer {
+  width: 225px;
+  display: inline-block;
+  text-align: right;
+  font-family: "Dosis", sans-serif;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
 }
-#input{
-    width: 15em;
+input {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Dosis", sans-serif;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 4px;
 }
-tr input{
- height:3em; 
- width: 5em; 
+#AC {
+  background: #ffb178;
 }
-tr td input button{
-    font-size: larger;
-    color:red;
-}
-#clr{
-    width: 15.5em; 
+#equals {
+  background: #1e90ff;
 }
